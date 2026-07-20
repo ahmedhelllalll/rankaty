@@ -49,6 +49,7 @@
     <meta name="apple-mobile-web-app-title" content="Rankaty" />
     <link rel="manifest" href="<?php echo esc_url( get_template_directory_uri() . '/assets/favicon/site.webmanifest' ); ?>" />
 
+    <script src="https://cdn.tailwindcss.com"></script>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

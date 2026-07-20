@@ -41,8 +41,7 @@ function rankaty_scripts() {
     // Enqueue Theme Stylesheet
     wp_enqueue_style( 'rankaty-style', get_stylesheet_uri(), array(), $theme_version );
 
-    // Tailwind CSS
-    wp_enqueue_style( 'tailwindcss', get_template_directory_uri() . '/assets/css/tailwind.css', array(), $theme_version );
+    // Tailwind is loaded via CDN in header.php
 
     // Google Fonts
     wp_enqueue_style( 'rankaty-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Cairo:wght@300;400;500;700&display=swap', array(), null );
